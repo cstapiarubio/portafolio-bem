@@ -1,3 +1,8 @@
+*{
+	margin:0;
+	padding:0;
+}
+
 /*DISEÑO NAVBAR*/
 .navbar-inverse{
 	background-color: $pink;
@@ -32,3 +37,22 @@ display:$display;
 
 /*DISEÑO HOME*/
 
+.home{
+	margin-top: -20px;
+	background-color: $azuldark;
+}
+
+#circle{
+	width: 100px;
+	height: 100px;
+	background-color: $white;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+
+p{
+	color: $azuldark;
+	text-align: center;
+}
+
+}

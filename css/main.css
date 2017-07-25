@@ -5806,6 +5806,10 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+* {
+  margin: 0;
+  padding: 0; }
+
 /*DISEÑO NAVBAR*/
 .navbar-inverse {
   background-color: #C70039; }
@@ -5831,5 +5835,19 @@ button.close {
   width: 95px; }
 
 /*DISEÑO HOME*/
+.home {
+  margin-top: -20px;
+  background-color: #21264C; }
+
+#circle {
+  width: 100px;
+  height: 100px;
+  background-color: #ffffff;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px; }
+  #circle p {
+    color: #21264C;
+    text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
