@@ -1,0 +1,34 @@
+/*DISEÑO NAVBAR*/
+.navbar-inverse{
+	background-color: $pink;
+	a{
+		color: $white;
+	}
+}
+
+.navlogo,
+.navlista{
+display:$display;
+}
+
+.navlogo__logo{
+	width:10%;
+	border-radius: 50%;
+	@extend .navlogo;
+	border: 2px solid $white;
+	background-color: #9EA5A1;
+}
+
+.navlista__lista{
+	@extend .navlogo;
+	margin: 20px;
+}
+
+.navlista__lista--perfil{
+	background-color: $azuldark;
+	border-radius: $radius;
+	width: 95px;
+}
+
+/*DISEÑO HOME*/
+
