@@ -5803,7 +5803,8 @@ button.close {
 
 /*DISE├æO NAVBAR*/
 .navbar-inverse {
-  background-color: #C70039; }
+  background-color: #C70039;
+  height: 100px; }
   .navbar-inverse a {
     color: #ffffff; }
 
@@ -5866,7 +5867,25 @@ button.close {
   width: 100%; }
 
 /*DISE├æO TRABAJOS*/
-.job {
-  background-color: #3DB277; }
+#job {
+  background-color: #3DB277;
+  height: 600px; }
+  #job h1 {
+    color: #ffffff;
+    font-weight: 900;
+    text-align: center; }
+
+.trabajo .trabajo__sect__img {
+  width: 100%;
+  border-radius: 15px;
+  margin-top: 100px;
+  text-align: center; }
+.trabajo .trabajo__sect__til {
+  color: #21264C;
+  text-align: center;
+  font-weight: 900; }
+.trabajo .trabajo__sect__p {
+  color: #ffffff;
+  text-align: justify; }
 
 /*# sourceMappingURL=main.css.map */

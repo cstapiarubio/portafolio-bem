@@ -6,6 +6,7 @@
 /*DISEÑO NAVBAR*/
 .navbar-inverse{
 	background-color: $pink;
+	height: 100px;
 	a{
 		color: $white;
 	}
@@ -94,7 +95,38 @@ display:$display;
 
 /*DISEÑO TRABAJOS*/
 
-.job{
-	background-color: $verde;
+	#job{
+		background-color: $verde;
+		height: 600px;
+		
+		h1{
+			color: $white;
+			font-weight: 900;
+			text-align:center;
+		}
+	}
+
+	.trabajo{
+
+		.trabajo__sect__img{
+			width: 100%;
+			border-radius: $radius;
+			margin-top: 100px;
+			text-align:center;
+		}
+
+	.trabajo__sect__til{
+		 color: $azuldark;
+		 text-align:center;
+		 font-weight: 900;
+		}
+
+		.trabajo__sect__p{
+       	 color: $white;
+       	 text-align:justify;
+		}
 }
+
+
+
 
