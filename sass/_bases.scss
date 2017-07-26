@@ -1,15 +1,15 @@
 *{
-	margin:0;
-	padding:0;
+margin:0;
+padding:0;
 }
 
 /*DISEÑO NAVBAR*/
 .navbar-inverse{
-	background-color: $pink;
-	height: 100px;
-	a{
-		color: $white;
-	}
+background-color: $pink;
+height: 100px;
+a{
+color: $white;
+}
 }
 
 .navlogo,
@@ -18,113 +18,114 @@ display:$display;
 }
 
 .navlogo__logo{
-	width:10%;
-	border-radius: 50%;
-	@extend .navlogo;
-	border: 2px solid $white;
-	background-color: #9EA5A1;
+width:10%;
+border-radius: 50%;
+@extend .navlogo;
+border: 2px solid $white;
+background-color: #9EA5A1;
 }
 
 .navlista a{
-	text-decoration: none;
+text-decoration: none;
 }
 
 .navlista__lista{
-	@extend .navlogo;
-	margin: 20px;
+@extend .navlogo;
+margin: 20px;
 }
 
 .navlista__lista--perfil{
-	background-color: $azuldark;
-	border-radius: $radius;
-	width: 95px;
+background-color: $azuldark;
+border-radius: $radius;
+width: 95px;
 }
 
 /*DISEÑO HOME*/
 
 .home{
-	margin-top: -20px;
-	background-color: $azuldark;
-	height: 400px;
+margin-top: -20px;
+background-color: $azuldark;
+height: 400px;
 }
 
 .parrafo{
-	margin-top:-200px;
+margin-top:-200px;
 
-	.parrafo__til{
-		color: $verde;
-    }
+.parrafo__til{
+color: $verde;
+}
 
-	.parrafo__p{
-		color:$white;
-	}
+.parrafo__p{
+color:$white;
+}
 
-	.parrafo__button{
-		background-color: $verde;
-		border-radius:$radius;
-		width: 100px;
-	}
+.parrafo__button{
+background-color: $verde;
+border-radius:$radius;
+width: 100px;
+}
 
-	.fa-paper-plane{
-		color:$white;
-	}
+.fa-paper-plane{
+color:$white;
+}
 }
 
 #circle{
-	width: 200px;
-	height: 200px;
-	background-color: $white;
-	-moz-border-radius: 100px;
-	-webkit-border-radius: 100px;
-	border-radius: 100px;
+width: 200px;
+height: 200px;
+background-color: $white;
+-moz-border-radius: 100px;
+-webkit-border-radius: 100px;
+border-radius: 100px;
 }
 
 .circulo{
-	margin-top: 100px;
+margin-top: 100px;
 
-	.circulo__cir__p{
-		color: $azuldark;
-		text-align: center;
-		font-weight: bold;
-	}
+.circulo__cir__p{
+color: $azuldark;
+text-align: center;
+font-weight: bold;
+}
 }
 
 .iconos__i{
-	width: 100%;
+width: 100%;
 }
 
 /*DISEÑO TRABAJOS*/
 
-	#job{
-		background-color: $verde;
-		height: 600px;
-		
-		h1{
-			color: $white;
-			font-weight: 900;
-			text-align:center;
-		}
-	}
+#job{
+background-color: $verde;
+height: 600px;
 
-	.trabajo{
+h1{
+color: $white;
+font-weight: 900;
+text-align:center;
+font-family: 'Ribeye', cursive;
+}
+}
 
-		.trabajo__sect__img{
-			width: 100%;
-			border-radius: $radius;
-			margin-top: 100px;
-			text-align:center;
-		}
+.trabajo{
 
-	.trabajo__sect__til{
-		 color: $azuldark;
-		 text-align:center;
-		 font-weight: 900;
-		}
+.trabajo__sect__img{
+width: 100%;
+border-radius: $radius;
+margin-top: 100px;
+text-align:center;
+}
 
-		.trabajo__sect__p{
-       	 color: $white;
-       	 text-align:justify;
-		}
+.trabajo__sect__til{
+color: $azuldark;
+text-align:center;
+font-weight: 900;
+}
+
+.trabajo__sect__p{
+color: $white;
+text-align:justify;
+}
 }
 
 

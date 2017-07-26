@@ -5873,7 +5873,8 @@ button.close {
   #job h1 {
     color: #ffffff;
     font-weight: 900;
-    text-align: center; }
+    text-align: center;
+    font-family: 'Ribeye', cursive; }
 
 .trabajo .trabajo__sect__img {
   width: 100%;
