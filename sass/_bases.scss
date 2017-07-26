@@ -24,6 +24,10 @@ display:$display;
 	background-color: #9EA5A1;
 }
 
+.navlista a{
+	text-decoration: none;
+}
+
 .navlista__lista{
 	@extend .navlogo;
 	margin: 20px;
@@ -40,19 +44,57 @@ display:$display;
 .home{
 	margin-top: -20px;
 	background-color: $azuldark;
+	height: 400px;
+}
+
+.parrafo{
+	margin-top:-200px;
+
+	.parrafo__til{
+		color: $verde;
+    }
+
+	.parrafo__p{
+		color:$white;
+	}
+
+	.parrafo__button{
+		background-color: $verde;
+		border-radius:$radius;
+		width: 100px;
+	}
+
+	.fa-paper-plane{
+		color:$white;
+	}
 }
 
 #circle{
-	width: 100px;
-	height: 100px;
+	width: 200px;
+	height: 200px;
 	background-color: $white;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
-
-p{
-	color: $azuldark;
-	text-align: center;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
 }
 
+.circulo{
+	margin-top: 100px;
+
+	.circulo__cir__p{
+		color: $azuldark;
+		text-align: center;
+		font-weight: bold;
+	}
 }
+
+.iconos__i{
+	width: 100%;
+}
+
+/*DISEÑO TRABAJOS*/
+
+.job{
+	background-color: $verde;
+}
+
